@@ -1,0 +1,27 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Snake</title>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
+  <script src='src/Head.js'></script>
+  <script src='src/Body.js'></script>
+  <script src='src/Apple.js'></script>
+  <link rel="stylesheet" href="src/styles.css">
+</head>
+<body>
+  <div id="board">
+    <div id='game-over'><center>G A M E &nbsp; O V E R</center></div>
+    <div id='nice'>
+      <center><strong>NICE</strong> shroom grab!</center>
+    </div>
+  </div>
+  <div id="speed-meter">
+    <div id='difficulty'>DIFFICULTY: &#9760;</div><br>
+    <div id='difficulty-controls'>[Q] : decrease speed<br>[E] : increase speed</div>
+  </div>
+  <div id="score-panel">SCORE: 0<br>HIGH SCORE: 0</div>
+  <div id="score-notify"><center>NEW HIGH SCORE!</center></div>
+  <div id='controls'>[X] : super-slowmo &nbsp; [Z] : reset high score</div>
+</body>
+<script src="./src/main.js"></script>
+</html>

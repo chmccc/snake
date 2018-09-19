@@ -1,0 +1,139 @@
+body {
+  font-family: monospace;
+  background-color: #5289fa;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+#game-over {
+  display: none;
+  position: fixed;
+  top: 270px;
+  left: 60px;
+  min-width: 500px;
+  font-size: 40px;
+  font-weight: 700;
+  padding: 30px;
+  border: 2px solid red;
+  z-index: 99;
+  color: darkred;
+  background-color: white;
+}
+
+#nice {
+  display: none;
+  position: fixed;
+  top: 680px;
+  left: 60px;
+  min-width: 500px;
+  font-size: 35px;
+  font-weight: 700;
+  padding: 30px;
+  z-index: 97;
+  color: #fdbbb2;
+  background-color: #cf4103;
+}
+
+#head {
+  background: black;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  background-color: #5289fa;
+  top: 0px;
+  left: 0px;
+  z-index: 96;
+}
+
+#board {
+  height: 700px;
+  width: 700px;
+  left: -9px;
+  top: -9px;
+  border: 1px black solid;
+  position: relative;
+  background-color: #5289fa;
+}
+
+#apple {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+}
+
+.body {
+  background: black;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  background-image: url('assets/brick.png');
+}
+
+.alert-container {
+  position: relative;
+  width: 700px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 35px;
+}
+
+.alert {
+  margin: 0 auto;
+  height: 100%;
+  width: 350px;
+  padding: 30px;
+}
+
+#speed-meter {
+  background-color: #fdbbb2;
+  position:fixed;
+  left: 750px;
+  top: 50px;
+  font-size: 25px;
+  width: 200px;
+  padding: 30px;
+  border: 2px solid black;
+  text-align:center;
+}
+
+#difficulty {
+  font-size: 28px;
+}
+
+#difficulty-controls {
+  font-size: 16px;
+}
+
+#score-panel {
+  background-color: #fdbbb2;
+  position:fixed;
+  left: 750px;
+  top: 280px;
+  font-size: 25px;
+  width: 200px;
+  padding: 30px;
+  border: 2px solid black;
+  border-color: black;
+  text-align:center;
+}
+
+#score-notify {
+  display: none;
+  background-color: white;
+  height: 70px;
+  width: 200px;
+  border: 2px solid red;
+  position: fixed;
+  top: 460px;
+  left: 750px;
+  padding: 30px;
+  font-size: 25px;
+  color: red;
+}
+
+#controls {
+  font-size: 23px;
+  margin-top: 100px;
+  margin-left: 40px;
+}
